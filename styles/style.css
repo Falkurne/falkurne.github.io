@@ -37,9 +37,7 @@
     display: table;
     clear: both;
 }
-/* Responsive layout - makes the two columns stack on top of each other
- instead of next to each other -- we cover media queries later
-  in the module */
+/* Cloumns stack instead of being next to each other depending on screen width*/
 @media screen and (max-width:600px) {
     .column {
         width: 100%;
