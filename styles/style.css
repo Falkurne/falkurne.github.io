@@ -48,6 +48,10 @@ img {
     display: table;
     clear: both;
 }
+.iframe{
+    max-width: 100%;
+    max-height: auto;
+}
 /* Columns stack instead of being next to each other depending on screen width and adjusting font size for smaller screens*/
 @media screen and (max-width:800px) {
     .column {
