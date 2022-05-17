@@ -23,6 +23,12 @@
     text-align: center;
     padding: 1.5vw 1vw;
 }
+/* Overwritten in columns but used for contact us page */
+.main {
+    text-align: center;
+    padding: 0.5vw;
+    font-size: 3vw;
+}
 /* Create two equal columns that float next to each other */
 .column {
     float: left;
