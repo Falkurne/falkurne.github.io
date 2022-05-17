@@ -5,7 +5,7 @@
 /* Style the header */
 .header {
     background-color:rgb(57, 122, 57);
-    font-size: 3vw;
+    font-size: 5vw;
     text-align: center;
     padding: 0.5vw;
 }
@@ -14,7 +14,7 @@
     text-align: center;
     overflow: hidden;
     background-color: rgb(104, 97, 97);
-    font-size: 2vw;
+    font-size: 3vw;
 }
 /* Style the topnav links */
 .topnav a {
@@ -29,16 +29,18 @@
     text-align: center;
     padding: 0.5vw;
     font-size: 2vw;
-    
 }
-
+/* adding scaling to images for differnet screens */
+img {
+    max-width: 100%;
+    height: auto;
+  }
 /* Create two equal columns that float next to each other */
 .column {
     float: left;
     width: 50%;
     padding: 15px;
-    background-color: yellow;
-    font-size: 2vw;
+    font-size: 3vw;
 }
 /* Clear floats after the columns */
 .row:after {
@@ -47,9 +49,13 @@
     clear: both;
 }
 /* Cloumns stack instead of being next to each other depending on screen width*/
-@media screen and (max-width:600px) {
+@media screen and (max-width:800px) {
     .column {
+        font-size: 4vw;
         width: 100%;
+    }
+    .topnav{
+        font-size: 4vw;
     }
 }
 .footer {
