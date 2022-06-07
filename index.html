@@ -18,32 +18,33 @@
 
     <body>
         <!-- Header and nav bar used on all pages -->
-        <header class="header"> <h1>Haukai Restaurant</h1>
+        <header class="w3-container w3-teal w3-center"> <h1>Haukai Restaurant</h1>
         </header>
-        <ul class="topnav"> 
-            <li><a class="active" href="./index.html">Home</a></li>
-            <li><a href="./reservations.html">Reservations</a></li>
-            <li><a href="./contact.html">Contact Us</a></li>
-            <li><a href="./hours.html">Opening Hours</a></li>
-            <li><a href="./menu.html">Menu</a></li>
-        </ul>
+        <div class="w3-bar w3-black">
+          <a href="./index.html" class="w3-bar-item w3-button w3-mobile">Home</a>
+          <a href="./reservations.html" class="w3-bar-item w3-button w3-mobile" >Reservations</a>
+          <a href="./contact.html" class="w3-bar-item w3-button w3-mobile">Contact Us</a>
+          <a href="./hours.html" class="w3-bar-item w3-button w3-mobile">Opening Hours</a>
+          <a href="./menu.html" class="w3-bar-item w3-button w3-mobile">Menu</a>
+        </div> 
 
         <!-- This pages content -->
-        <main>
-            <div class="row">
-              <div class="column">
+        <main class="w3-container w3-center">
+            <div class="w3-row-padding">
+              <div class="w3-col s12 m12 l6">
                 <h2>Who we are</h2>
                 <p>Started by a couple who wanted to attract locals and tourists visting the area the Haukai Restaurant features <a href=menu.html>Māori and Pākeha kai and drinks.</a><br></p>
                 <p>Open during evenings from wednesday to sunday please check the <a href=hours.html>opening hours page</a> for specific dates or book ahead online using the <a href=reservations.html>reservations page.</a></p>
               </div>
-              <div class="column">
-                <img src="./images/restaurant1.jpg" media="(max-width: 800px)" alt="Restaurant" >
+              <div class="w3-col s12 m12 l6">
+                <img src="./images/restaurant1.jpg" class="w3-image" alt="Restaurant" >
+                <br><br>
               </div>
             </div>
         </main>
 
         <!-- footer accross all pages -->
-        <footer class="footer">
+        <footer class="w3-container w3-teal w3-center">
           <p><a href="./privacy_statement.html">Privacy Statement</a></p>
           <p>©Copyright 2019 by The Haukai Restaurant. All rights reversed.</p>
         </footer>
